@@ -89,7 +89,7 @@ int main()
     cout<<"The Perimeter of Rectangle is: "<<2*(len+breadth)<<endl;
     */
 
-    /*8*/
+    /*8
 
     
 
@@ -116,5 +116,8 @@ int main()
     cout<<"d "<<d<<endl;
     cout<<"p "<<p<<endl;
     cout<<"Your Compound Interest is: "<<A<<endl;
+    */
+
+    
     return 0;
 }
