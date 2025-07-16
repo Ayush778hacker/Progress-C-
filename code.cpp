@@ -180,6 +180,31 @@ else{
   cout<<"You are not eligible to be a voter little one..";
 }
   */
+ 
+/*18
 
+int a;
+cout<<"Enter First Number: ";
+cin>>a;
+int b;
+cout<<"Enter Second Number: ";
+cin>>b;
+int c;
+cout<<"Enter Third Number: ";
+cin>>c;
+
+if(a>b && a>c){
+  cout<<"A is greater than b and c";
+}
+else if(b>a && b>c){
+  cout<<"B is greater than A And C";
+}
+else if(c>a && c>a){
+  cout<<"C is greater than a and b";
+}
+else{
+  cout<<"Invailid values..";
+}
+*/
     return 0;
 }
