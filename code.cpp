@@ -118,6 +118,40 @@ int main()
     cout<<"Your Compound Interest is: "<<A<<endl;
     */
 
-    
+    /*12
+
+    int A;
+    cout<<"Enter First Number: ";
+    cin>>A;
+    int B;
+    cout<<"Enter Second Number: ";
+    cin>>B;
+
+    if(A>B){
+      cout<<"A is Greater than b.";
+    }
+    else if(A==B){
+      cout<<"You enter same number.";
+    }
+    else{
+      cout<<"B is Greater than A. ";
+    }*/
+
+    /*13 & 14 included due to else statement
+    char user;
+    cout<<"Enter Your Gender in Capital Letter M or F: ";
+    cin>>user;
+
+    if(user == 'm' || user == 'M'){
+      cout<<"Good Morning Sir..";
+    }
+    else if(user== 'f' || user == 'F'){
+      cout<<"Good Morning Mam..";
+    }
+    else{
+      cout<<"Wrong Input";
+    }
+    */
+   
     return 0;
 }
