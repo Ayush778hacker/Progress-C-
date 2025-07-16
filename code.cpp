@@ -152,6 +152,34 @@ int main()
       cout<<"Wrong Input";
     }
     */
-   
+
+    /*15
+
+    int n;
+    cout<<"Enter Number: ";
+    cin>>n;
+    if(n%2==0){
+      cout<<"Number is Even..";
+    }
+    else{
+      cout<<"Number is Odd..";
+    }
+*/
+
+/*16
+int age;
+cout<<"Enter your age: ";
+cin>>age;
+if(age>=18){
+  cout<<"You are eligible for voting..";
+}
+else if(age>=0){
+  cout<<"Invalid age";
+}
+else{
+  cout<<"You are not eligible to be a voter little one..";
+}
+  */
+
     return 0;
 }
