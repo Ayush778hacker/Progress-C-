@@ -206,5 +206,21 @@ else{
   cout<<"Invailid values..";
 }
 */
+
+/*19
+ int year;
+ cout<<"Enter Year: ";
+ cin>>year;
+
+ if(year%4==0 && year%100 != 0){
+  cout<<"its a leap year..";
+ }
+ else if(year%4==0 && year%400==0){
+  cout<<"its a leap year..";
+ }
+ else{
+  cout<<"its not a leap year: ";
+ }
+ */
     return 0;
 }
