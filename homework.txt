@@ -1,0 +1,5 @@
+Q-1 Sum of all numbers from 1 to N which are divisible by 3.✔
+
+Q-2 Print Factorial of a Number N.✔
+
+Q-3 Write a code on pattern in which character should increase.
