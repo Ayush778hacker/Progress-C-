@@ -347,7 +347,7 @@ else{
   cout<<vow<<" is vowel.";
  }
  else{
-  cout<<"Constant";
+  cout<<vow<<" Is A Constant";
  }
   return 0;
 }
