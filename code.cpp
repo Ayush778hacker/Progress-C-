@@ -245,7 +245,7 @@ else{
 
   /*#Task
   #1 INR  
-  */
+  
  int rupee;
  cout<<"Enter Rupees You want to change into smallar notes: ";
  cin>>rupee;
@@ -292,6 +292,50 @@ else{
   else{
     cout<<"Remaining Rs = "<<remaining;
   }
+  */
+ /*#Task 2*/
+ char ch;
+ cout<<"Enter Your Gender in capital letters only M or F: ";
+ cin>>ch;
 
+ char qualifications;
+ cout<<"Enter Your Qualification in short form Example"<<endl<<" Post Graduate:P "<<endl<<"Graduate:G"<<endl;
+ cin>> qualifications;
+ 
+ double service;
+ cout<<"Enter Your Service In Years: ";
+ cin>>service;
+
+
+ if(ch== 'M'  && qualifications == 'P' && service>=10){
+  cout<<"Your salary Is : 15000";
+ }
+ else if(ch=='M'  && qualifications =='G' && service>=10){
+  cout<<"Your Salary is:10000 ";
+ }
+ else if(ch=='M' && qualifications =='P' && service<10){
+  cout<<"Your salary is : 10000";
+ }
+ else if(ch=='M'  && qualifications =='G' && service<10){
+  cout<<"Your Salary is:7000 ";
+ }
+ else if(ch=='F'  && qualifications =='P' && service>=10){
+  cout<<"Your Salary is:12000 ";
+ }
+ else if(ch=='F'  && qualifications =='P' && service<10){
+  
+  cout<<"Your Salary is:10000 ";
+ }
+ else if(ch=='F'  && qualifications =='G' && service>=10){
+
+  cout<<"Your Salary is:9000 ";
+ }
+ else if(ch=='F'  && qualifications =='G' && service<10)
+ {
+   cout<<"Your Salary is:6000 ";
+ }
+ else{
+  cout<<"Error";
+ }
   return 0;
 }
