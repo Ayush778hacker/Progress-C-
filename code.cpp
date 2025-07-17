@@ -222,5 +222,25 @@ else{
   cout<<"its not a leap year: ";
  }
  */
-    return 0;
+
+ /*20*/
+  int unit;
+  cout<<"Enter Unit: ";
+  cin>>unit;
+  if(unit>=0 && unit<=100){
+    cout<<"Your Bill Is Rs"<<(unit*4.2)<<endl;
+  }
+  else if(unit>=101 && unit<=200){
+    cout<<"Your Bill Is Rs "<<((100*4.2)+(unit-100)*6)<<endl;
+    
+  }
+  else if(unit>=201 && unit<=400){
+    cout<<"Your Bill Is Rs "<<((100*4.2)+(100*6)+(unit-200)*8)<<endl;
+    
+  }
+  else{
+
+    cout<<"Your Bill Is Rs "<<((100*4.2)+(100*6)+(200*8)+(unit-400)*13)<<endl;
+  }
+  return 0;
 }
