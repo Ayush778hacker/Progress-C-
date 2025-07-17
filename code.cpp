@@ -223,7 +223,7 @@ else{
  }
  */
 
- /*20*/
+ /*20
   int unit;
   cout<<"Enter Unit: ";
   cin>>unit;
@@ -241,6 +241,57 @@ else{
   else{
 
     cout<<"Your Bill Is Rs "<<((100*4.2)+(100*6)+(200*8)+(unit-400)*13)<<endl;
+  }*/
+
+  /*#Task
+  #1 INR  
+  */
+ int rupee;
+ cout<<"Enter Rupees You want to change into smallar notes: ";
+ cin>>rupee;
+
+ int remaining =0;
+ int note = 0;
+ 
+
+  if(rupee/500 !=0 || rupee/500 ==0){
+    note = rupee/500;
+    cout<<"500 ke notes = "<<note<<endl;;
+    remaining = rupee%500;
   }
+  if(rupee/200 != 0 || remaining/200 ==0){
+    note = rupee/200;
+    cout<<"200 ke notes ="<<note<<endl;
+    remaining = remaining%200;
+  }
+  if(rupee/100 !=0 || remaining/100 ==0){
+    note = rupee/100;
+    cout<<"100 ke notes = "<<note<<endl;
+    remaining =remaining%100;
+    
+  }
+  if(rupee/50 !=0 || remaining/50 ==0){
+    note = rupee/50;
+    cout<<"50 ke notes = "<<note<<endl;
+    remaining =remaining%50;
+  
+  }
+  if(rupee/20 != 0 || remaining/20 ==0){
+    note = rupee/20;
+    cout<<"20 ke notes = "<<note<<endl;
+    remaining =remaining%20;
+    
+    
+  }
+  if(rupee/10 != 0 || remaining/10 ==0){
+    note = rupee/10;
+    cout<<"10 ke notes = "<<note<<endl;
+    remaining =remaining%10;
+    
+  }
+  else{
+    cout<<"Remaining Rs = "<<remaining;
+  }
+
   return 0;
 }
