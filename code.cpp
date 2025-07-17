@@ -293,7 +293,8 @@ else{
     cout<<"Remaining Rs = "<<remaining;
   }
   */
- /*#Task 2*/
+
+ /*#Task 2
  char ch;
  cout<<"Enter Your Gender in capital letters only M or F: ";
  cin>>ch;
@@ -336,6 +337,17 @@ else{
  }
  else{
   cout<<"Error";
+ }
+  */
+ /*21*/
+ char vow;
+ cout<<"Enter Letter in Capital letters only : ";
+ cin>>vow;
+ if(vow=='A' || vow=='E' || vow=='I' || vow=='O'|| vow=='U'){
+  cout<<vow<<" is vowel.";
+ }
+ else{
+  cout<<"Constant";
  }
   return 0;
 }
