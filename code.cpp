@@ -419,7 +419,7 @@ if(day<=7 && day!=0){
 else{
   cout<<"Error Value";}
   */
- /*20*/
+ /*20
 
  int amount;
  cout<<"Enter Amount: ";
@@ -442,6 +442,29 @@ else{
  }
  else {
   cout<<"Payable amount is: "<<amount-((10*amount)/100);
+ }
+ */
+
+ /*Task*/
+
+ double rating;
+ cout<<"Enter Ratings: ";
+ cin>>rating;
+
+ if(rating>=0 && rating<=2.0){
+  cout<<"Movie is flop.";
+ }
+ else if(rating>=2.1 && rating<=3.4){
+  cout<<"Movie is Semi-Hit";
+ }
+ else if(rating>=3.5 && rating<=4.5){
+  cout<<"Movie is Hit";
+ }
+ else if(rating>=4.6 && rating<=5.0){
+  cout<<"Movie is Super Hit";
+ }
+ else{
+  cout<<"Error Rating";
  }
  return 0;
 }
