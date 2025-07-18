@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
@@ -339,7 +340,7 @@ else{
   cout<<"Error";
  }
   */
- /*21*/
+ /*21
  char vow;
  cout<<"Enter Letter in Capital letters only : ";
  cin>>vow;
@@ -348,6 +349,99 @@ else{
  }
  else{
   cout<<vow<<" Is A Constant";
+ }*/
+
+ /*8
+ int a;
+ cout<<"Enter side 1: ";
+ cin>>a;
+
+ int b;
+ cout<<"Enter side 2: ";
+ cin>>b;
+
+ int c;
+ cout<<"Enter side 3: ";
+ cin>>c;
+ 
+ double s =((a+b+c)/2);
+ cout<<s<<endl;;
+ cout<<"Area = "<<sqrt(s*(s-a)*(s-b)*(s-c));;
+ */
+
+ /*9
+ int r;
+ cout<<"Enter Radius of Sphere: ";
+ cin>>r;
+ int po =pow(r,2); 
+ double sa =(4*3.14)*po;
+ 
+ cout<<"Surafce Area = "<<sa;
+ */
+/*10*
+int r;
+cout<<"Enter Radius: ";
+cin>>r;
+
+double cir = 2*3.14*r;
+double ar = 3.14*pow(r,2);
+cout<<"Circumference = "<<cir<<endl;
+cout<<"Area = "<<ar<<endl;  
+ */
+/*17
+int day;
+cout<<"Enter no between 1-7: ";
+cin>>day;
+
+if(day<=7 && day!=0){
+  if(day==1){
+    cout<<"Monday";
+  }
+  else if(day==2){
+    cout<<"Tuesday";
+  }
+  else if(day==3){
+    cout<<"Wednesday";
+  }
+  else if(day==4){
+    cout<<"Thursday";
+  }
+  else if(day==5){
+    cout<<"Friday";
+  }
+  else if(day==6){
+    cout<<"Saturday";
+  }
+  else{
+    cout<<"Sunday";
+  }
+}
+else{
+  cout<<"Error Value";}
+  */
+ /*20*/
+
+ int amount;
+ cout<<"Enter Amount: ";
+ cin>>amount;
+
+ if(amount>=0 && amount<=1000){
+  cout<<"Payable amount is: "<<amount;
  }
-  return 0;
+ else if(amount>=1000 && amount<=2000){
+  int discount = (3*amount)/100;
+  cout<<discount<<endl;
+  cout<<"Payable amount is: "<<(amount-discount)<<endl;
+ }
+ else if(amount>=2000 && amount<=10000){
+  int discount = (5*amount)/100;
+  cout<<"Payable amount is: "<<amount-discount<<endl;
+ }
+ else if(amount<0){
+  cout<<"Error"<<endl;
+ }
+ else {
+  cout<<"Payable amount is: "<<amount-((10*amount)/100);
+ }
+ return 0;
 }
