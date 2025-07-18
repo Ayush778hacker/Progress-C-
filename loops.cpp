@@ -1,6 +1,5 @@
 #include<iostream>
 #include<cmath>
-
 using namespace std;
 
 int main(){
@@ -31,7 +30,7 @@ int main(){
     for(int i=1; i<=10;i++){
         cout<<n<< "*"<< i <<"="<< n*i<<endl;
     }
-    */    
+    */
     /*27
     int n;
     cout<<"Enter no where you want to get sum: ";
@@ -72,7 +71,7 @@ int main(){
     cout<<"Even Sum = "<<even<<endl;
     cout<<"Odd Sum = "<<odd;
     */
-   /*30
+   /*30*/
    int n;
    cout<<"Enter number for you want factors: ";
    cin>>n;
@@ -82,8 +81,7 @@ int main(){
         cout<<i<<endl;;
     }
     }
-    */
-
-
+    
+    
     return 0;
 }
