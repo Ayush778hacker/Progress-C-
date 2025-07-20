@@ -22,6 +22,14 @@ int main(){
         cout<<i<<endl;
     }
     */
+   /*25
+   int n;
+   cout<<"Enter no from where you want to print the reverse loop: ";
+   cin>>n;
+   for(int i=n; i>=1;i--){
+    cout<<i<<endl;;
+   }
+   */
     /*26
     int n;
     cout<<"Enter number you want to print its table: ";
@@ -71,7 +79,7 @@ int main(){
     cout<<"Even Sum = "<<even<<endl;
     cout<<"Odd Sum = "<<odd;
     */
-   /*30*/
+   /*30
    int n;
    cout<<"Enter number for you want factors: ";
    cin>>n;
@@ -81,7 +89,7 @@ int main(){
         cout<<i<<endl;;
     }
     }
-    
+    */
     
     return 0;
 }
