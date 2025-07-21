@@ -79,7 +79,7 @@ int main(){
     cout<<"Even Sum = "<<even<<endl;
     cout<<"Odd Sum = "<<odd;
     */
-   /*30*/
+   /*30
    int n;
    cout<<"Enter number for you want factors: ";
    cin>>n;
@@ -89,7 +89,20 @@ int main(){
         cout<<i<<endl;;
     }
     }
-    
-    
+    */
+
+    /*31*/
+
+
+
+/*32*/
+cout<<"Enter no: ";
+int n;
+cin>>n;
+int i=0;
+while(i<=n){
+    if(n%i==0)
+    i++;
+}
     return 0;
 }
