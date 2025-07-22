@@ -91,18 +91,118 @@ int main(){
     }
     */
 
-    /*31*/
+    /*31
+cout<<"Enter Number so that i can print its factors sum: ";
+int n;
+cin>>n;
+int sum =0;
 
+for(int i=1; i<=n;i++){
+    if(n%i==0){
+        sum=sum+i;
+    
+    }
+}
+cout<<sum;
 
-
-/*32*/
+*/
+/*32
 cout<<"Enter no: ";
 int n;
 cin>>n;
-int i=0;
-while(i<=n){
-    if(n%i==0)
-    i++;
+if(n==0){
+    cout<<"No Prime";
+    
 }
-    return 0;
+else if(n==2){
+    cout<<"prime";
+    
+}
+else if(n%2==0){
+    cout<<"Not prime";
+}
+else{
+
+    for(int i=3; i<=n;i=i+2){
+        if(n%i==0){
+            cout<<"Not Prime";
+            break;
+        }
+        else{
+            cout<<"Prime";
+            break;
+        }
+    }
+    }
+*/
+/*33*/
+cout<<"Enter first number: ";
+int a;
+cin>>a;
+cout<<"Enter Second number: ";
+int b;
+cin>>b;
+int sp=1; 
+for(int i=1; i<=b;i++){
+    
+    sp= sp*a;
+}
+cout<<sp;
+
+/*34*/
+cout<<"Enter number which you want to spilit: ";
+int n;
+cin>>n;
+
+int sv;
+while(n>0){
+    sv=n%10;
+    cout<<sv<<endl;
+    n=n/10;
+}
+
+/*35*/
+cout<<"Enter number: ";
+int n;
+cin>>n;
+int sd;
+int ds=0;
+while(n>0){
+    sd=n%10;
+    ds=ds+sd;
+    n=n/10;
+}
+cout<<ds;
+
+/*36*/
+cout<<"Enter number: ";
+int n;
+cin>>n;
+int sf;
+while(n>0){
+    sf=n%10;
+    cout<<sf<<endl;
+    n=n/10;
+}
+
+/*37*/
+cout<<"Enter Number: ";
+int n;
+cin>>n;
+int copy=n;
+int rev;
+while(n>0){
+    int dig =n%10;
+    rev=(rev*10)+dig;
+    n=n/10;
+
+}
+if(copy==n){
+    cout<<"Number is palindromic";
+}
+else{
+    cout<<"Number is not palindromic";
+}
+    cout<<rev;
+return 0;
 }
