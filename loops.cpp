@@ -198,7 +198,7 @@ while(n>0){
 
 }
 if(copy==n){
-    cout<<"Number is palindromic";
+    cout<<"git push -u origin mainNumber is palindromic";
 }
 else{
     cout<<"Number is not palindromic";
