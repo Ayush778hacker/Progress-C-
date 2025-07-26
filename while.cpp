@@ -14,7 +14,7 @@ int main(){
         i++;
     }
     
- /*24*/
+ /*24
    cout<<"Enter Number: ";
    int n;
    cin>>n;
@@ -23,7 +23,7 @@ int main(){
     cout<<i<<endl;;
     i++;
    }
-
+*/
 /*25*/
  cout<<"Enter Number: ";
  int n;
